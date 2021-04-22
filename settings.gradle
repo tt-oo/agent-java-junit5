@@ -1,1 +1,8 @@
 rootProject.name = 'agent-java-junit5'
+
+buildCache {
+    local {
+        // Set local build cache directory.
+        directory = "${settingsDir}/build-cache"
+    }
+}
